@@ -1,0 +1,26 @@
+{
+  "name": "node_reddit",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "PART 1 \r -Create a NodeJS project using npm init. \r -Create a folder in your project called server. \r -Create a JavaScript file in the server folder named server.js. \r -In server.js Import (require) path and fs. \r -Create an array consisting of at least 5 chirp objects. \r -Write the array to a file in the root of the project called chirps.json. \r -Add code to server.js that reads the file and outputs the chirps to the console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon streams.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAnderwald/node_reddit.git"
+  },
+  "author": "Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AAnderwald/node_reddit/issues"
+  },
+  "homepage": "https://github.com/AAnderwald/node_reddit#readme",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "isomorphic-fetch": "^3.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
